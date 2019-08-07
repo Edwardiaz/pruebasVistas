@@ -70,18 +70,18 @@ html {
 
         b.visitas{
         color: #6D1B93;
-        font-size: 22px;
+        font-size: 29px;
         }
 
         b.ventas{
         color: #255B87;
-        font-size: 22px;
+        font-size: 29px;
         
         }
 
         b.comentarios{
         color: #3FB166;
-        font-size: 22px
+        font-size: 29px
         }
 
         b.ganancias{
@@ -131,6 +131,7 @@ html {
         min-height: 30px;
         text-align: center;
         }
+
         div.logo{
             width:100%;
             text-align:left;
@@ -150,10 +151,8 @@ html {
         font-size: 14px;
         font-weight: 600;*/
         text-align: center;
-
-
         }
-
+        
         span { 
         font-size: 1em;
         font-weight: bold;

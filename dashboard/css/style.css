@@ -108,16 +108,7 @@ div.graph{
   margin: 0;
 }
 
-.nombre{
-  position: absolute;
-  top: 40px;
-  right: 105px;
-  z-index: 1;
-  display: inline
-  font-size: 8px;
-  font-weight: 600;
 
-}
 
 
 .side-nav{
