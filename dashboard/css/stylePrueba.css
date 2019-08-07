@@ -1,0 +1,204 @@
+html {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: monospace;
+            padding: 0;
+            margin: 0;
+            background: white;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .grid {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .grid:before,
+        .grid:after,
+        .row:before,
+        .row:after {
+            content: " ";
+            display: table;
+        }
+
+        .grid:after,
+        .row:after {clear: both;}
+
+        [class*='col-']{
+            width: 100%;
+            float: left;
+            min-height: 1px;
+        }
+
+        .col {
+            padding: 1em;
+            margin: 8px;
+            background:  white;
+            border-radius: 3px;
+            box-shadow: 0 1px 1px rgba(0,0,0,.3);
+            color: black;
+            font-weight:bold;
+            text-align: center;
+
+        }
+
+        /*mis estilos...*/
+        .input-group-prepend{
+        width: 100px;
+        height: auto;
+        margin: 0px 0px 10px;
+        background-color: #CCCCCC;
+        
+        border:0px !important;
+        }
+
+        div.letra{
+        margin: 30px 13px;
+        text-align: center;
+        color: black;
+        font-size: 14px;
+
+        }
+
+        b.visitas{
+        color: #6D1B93;
+        font-size: 22px;
+        }
+
+        b.ventas{
+        color: #255B87;
+        font-size: 22px;
+        
+        }
+
+        b.comentarios{
+        color: #3FB166;
+        font-size: 22px
+        }
+
+        b.ganancias{
+        color: red;
+        font-size: 22px;
+        }
+
+        div.iconos{
+        background-color: #CCCCCC;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        }
+
+        img.imagenes {
+        width: 60%;
+        height: auto;
+        }
+        /*buscador*/
+        .input-container {
+        display: -ms-flexbox; /*para  IE10 */
+        display: flex;
+        width: 100%;
+        height: 30px;
+        border: none;
+        color: #CCCCCC;
+        margin-bottom: 15px;
+        }
+    
+        .input-field {
+        width: 100%;
+        background: #CCCCCC;
+        padding: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: none;
+        border: none;
+        /*fin buscador*/
+        /*border: 100px;*/
+        }
+
+        .icon {
+        padding: 5px;
+        background: #CCCCCC;
+        color: black;
+        min-width: 45px;
+        min-height: 30px;
+        text-align: center;
+        }
+        div.logo{
+            width:100%;
+            text-align:left;
+            font-weight:bold;
+            text-align: right;
+        }
+        div.titulo{
+            text-align: left;
+        }
+
+        .nombre{
+        /*position: absolute;
+        top: 0px;
+        right: 1px;
+        z-index: 1;
+        display: inline;
+        font-size: 14px;
+        font-weight: 600;*/
+        text-align: center;
+
+
+        }
+
+        span { 
+        font-size: 1em;
+        font-weight: bold;
+        position: absolute;
+        bottom:0px;
+        right:100px;
+        }
+        span b { 
+        font-size: 8px;
+        font-weight: bold;
+
+        }
+
+        .notificacion{
+        width: 50px;
+
+       /* position: absolute;
+        top: 20px;
+        left: 70px;
+        z-index: 1;*/
+
+        }
+        .notificacion2{
+        width: 50px;
+
+       /* position: absolute;
+        top: 20px;
+        left: 50px;
+        z-index: 1;*/
+
+        }
+
+        /*termina mis estilos*/
+        @media screen and (min-width:320px){
+            .col-wd-12 { width: 100%;}
+            .col-wd-6 {width: 40%;}
+            .input-container{width:100%;}
+            .input-field{width: 100%;}
+            
+        }
+
+        @media screen and (min-width:640px){
+            .col-md-3 {width: 45%;}
+            .col-md-4 {width: 63.33333%;}
+            .input-container{width: 100%;}
+            .input-field{width: 100%;}
+
+        }
