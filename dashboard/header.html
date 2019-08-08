@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:right;
+  width:20%;
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%;
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%;
+}
+
+button.buscar{
+  text-decoration: none;
+    padding: 5px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    border: none;
+  background-color: #666666;
+}
+
+.nombre{
+  position: absolute;
+  top: 40px;
+  right: 105px;
+  z-index: 1;
+  display: inline
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.notificacion{
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 295px;
+  z-index: 1;
+
+}
+.notificacion2{
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 360px;
+  z-index: 1;
+
+}
+
+.logo h2{
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
+html {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: monospace;
+            padding: 0;
+            margin: 0;
+            background: white;
+        }
+
+        
+
+@media screen and (max-width:800px) {
+  .left{
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+ .right{
+  width:50%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="left">
+  <p>MARCA/LOGO</p>
+</div>
+
+<div class="right">
+  <form class="form-inline">
+    <div class="input-container">
+      <i class="fa fa-search icon"></i>
+      <input class="input-field" typlaceholder="Buscar por palabra clave" name="usrnm">
+      <button class="buscar" type="submit">BUSCAR</button>
+    </div>
+  </form>
+  <div>
+            <div class="nombre" style="text-align: right;">
+              <h6> Fernando Linares </h6>
+            </div>
+            <div class="notificacion">
+              <img src="iconos/usr.png" style="max-width:100%;height:auto;">
+            </div>
+            <div class="notificacion2">
+              <img src="iconos/notificacion.png" style="max-width:100%;height:auto;">
+            </div>
+          </div>
+</div>
+
+</body>
+</html>
